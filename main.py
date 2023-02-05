@@ -32,16 +32,16 @@ def count():
   
 count()
 # Plot Brownian Motion using sample size
-plt.plot(df)
-plt.xlabel('Time (Quaters)')
-plt.ylabel('Stock Price')
-plt.show()
+#plt.plot(df)
+#plt.xlabel('Time (Quarters)')
+#plt.ylabel('Stock Price')
+#plt.show()
 
 #Histogram using sample size
-#plt.hist(df.iloc[-1])
-#plt.xlabel('Stock Price')
-#plt.ylabel('Density')
-#plt.show()
+plt.hist(df.iloc[-1])
+plt.xlabel('Stock Price')
+plt.ylabel('Density')
+plt.show()
 
 #Scatter plot average of sample size
 #average = df.mean(axis=1)
